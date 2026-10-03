@@ -69,6 +69,16 @@ anotherYoutubeName = "learn with raj";
 // console.log(myYoutubeName);  
 // console.log(anotherYoutubeName);
 
+//ex 
+
+let name = "ram";
+let anotherName =name;
+
+anotherName = "vansh";
+console.log(anotherName);
+console.log(name);
+
+
 // heap ex :
 
 let userOne ={
@@ -82,8 +92,8 @@ let userTwo = userOne;
 
 userTwo.email = "raajjj11@gmail.com";
 
-console.log(userTwo.email);
-console.log(userOne.email);
+// console.log(userTwo.email);
+// console.log(userOne.email);
 
 
 
